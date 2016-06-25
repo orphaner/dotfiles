@@ -1,0 +1,37 @@
+[user]
+	email = nicolas@beroot.org
+	name = Nicolas L.
+[core]
+	editor = vim
+[color]
+	status = auto
+	diff = auto
+	branch = auto
+	interactive = auto
+[alias]
+	a = add
+	b = branch
+	c = commit --verbose
+	co = checkout
+	d = diff
+	dn = diff --name-only
+	ds = diff --staged
+	du = count-objects --verbose --human-readable
+	f = fetch
+	h = help
+	hc = help config
+	l = log
+	lol = log --graph --pretty=oneline
+	m = merge
+	nuke = !git clean -fdx && git submodule foreach git clean -fdx
+	p = pull
+	ps = push
+	pr = pull-request
+	r = reset
+	rb = rebase
+	redo = commit --amend --no-edit
+	s = status --short --branch
+	sh = show
+	st = status
+	sub = submodule
+	y = cherry-pick
