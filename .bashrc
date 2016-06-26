@@ -85,6 +85,8 @@ export ANT_HOME="/home/nicolas/progs/java/apache-ant-1.8.2"
 export ADB_HOME="/home/nicolas/android/android-sdk-linux_x86/"
 export NDK_HOME="/home/nicolas/android/android-ndk-r6b"
 export TERM=rxvt-unicode
+export GOPATH="$HOME/geek/golang"
+
 
 export PATH="$PATH:$JAVA_HOME/bin/"
 export PATH="$PATH:$MVN_HOME/bin"
