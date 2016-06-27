@@ -19,3 +19,4 @@ alias urxvt="urxvt -pe tabbed"
 alias rm="rm -i"
 alias ec='emacsclient'
 alias pstree='ps -ef --forest'
+alias ccat=$HOME/geek/golang/bin/ccat
