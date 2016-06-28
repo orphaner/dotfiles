@@ -12,6 +12,7 @@
 	a = add
 	b = branch
 	c = commit --verbose
+    cl = clone
 	co = checkout
 	d = diff
 	dn = diff --name-only

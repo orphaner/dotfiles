@@ -77,10 +77,10 @@ fi
 PS1="\[\033[1;30m\][\[\033[0;33m\]\u\[\033[0;32m\]@\[\033[0;31m\]\h\[\033[1;30m\]] \[\033[0;37m\]\W \[\033[1;30m\]\$\[\033[0m\] "
 
 
-export JAVA_HOME="/home/nicolas/progs/java/jdk8"
+#export JAVA_HOME="/home/nicolas/progs/java/jdk8"
 export DERBY_HOME="/home/nicolas/progs/java/jdk8/db"
-export MVN_HOME="/home/nicolas/progs/java/maven"
-export M2_HOME="/home/nicolas/progs/java/maven"
+#export MVN_HOME="/home/nicolas/progs/java/maven"
+#export M2_HOME="/home/nicolas/progs/java/maven"
 export ANT_HOME="/home/nicolas/progs/java/apache-ant-1.8.2"
 export ADB_HOME="/home/nicolas/android/android-sdk-linux_x86/"
 export NDK_HOME="/home/nicolas/android/android-ndk-r6b"

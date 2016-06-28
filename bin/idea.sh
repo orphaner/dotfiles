@@ -1,0 +1,1 @@
+/opt/ideaIC-15.0.4/bin/idea.sh
