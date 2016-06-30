@@ -22,6 +22,7 @@
 	hc = help config
 	l = log
 	lol = log --graph --pretty=oneline
+	lg = log --graph --oneline --all --decorate
 	m = merge
 	nuke = !git clean -fdx && git submodule foreach git clean -fdx
 	p = pull
