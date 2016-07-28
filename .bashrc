@@ -95,4 +95,4 @@ export PATH="$PATH:$ANT_HOME/bin"
 export PATH="$PATH:$ADB_HOME/platform-tools:$ADB_HOME/tools:$NDK_HOME"
 
 
-eval `ssh-agent -s`
+eval `keychain --eval --agents ssh id_rsa`
