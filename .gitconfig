@@ -9,30 +9,42 @@
 	branch = auto
 	interactive = auto
 [alias]
-	a = add
-	b = branch
-	c = commit --verbose
-	co = checkout
-	d = diff
-	dn = diff --name-only
-	ds = diff --staged
-	du = count-objects --verbose --human-readable
-	f = fetch
-	h = help
-	hc = help config
-	l = log
-	lol = log --graph --pretty=oneline
-	lg = log --graph --oneline --all --decorate
-	m = merge
-	nuke = !git clean -fdx && git submodule foreach git clean -fdx
-	p = pull
-	ps = push
-	pr = pull-request
-	r = reset
-	rb = rebase
-	redo = commit --amend --no-edit
-	s = status --short --branch
-	sh = show
-	st = status
-	sub = submodule
-	y = cherry-pick
+        last = log -1 --stat
+        cp = cherry-pick
+        cl = clone
+        ci = commit
+        st = status -sb
+        br = branch
+        unstage = reset HEAD --
+        lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %Cblue<%an>%Creset' --abbrev-commit --date=relative --all
+        lg2 = log --decorate --stat --graph --pretty=format:'%Cgreen%h%Creset (%ar - %Cred%an%Creset), %s%n'
+        a = add
+        aa = add -A
+        b = branch
+        c = commit --verbose
+        co = checkout
+        d = diff
+        dn = diff --name-only
+        ds = diff --staged
+        dc = diff --cached
+        du = count-objects --verbose --human-readable
+        f = fetch
+        h = help
+        hc = help config
+        l = log
+        lol = log --graph --pretty=oneline
+        m = merge
+        nuke = !git clean -fdx && git submodule foreach git clean -fdx
+        pu = pull
+        pr = pull --rebase --autostash
+        p = push
+        r = reset
+        rb = rebase
+        redo = commit --amend --no-edit
+        s = status --short --branch
+        sh = show
+        st = status
+        sub = submodule
+
+
+
